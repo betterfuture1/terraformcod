@@ -7,3 +7,6 @@ terraform {
 provider "aws" {
     region = "us-east-1"
 }
+reource "aws_iam_user" "huser"{
+    name = "user2"
+}
